@@ -1,5 +1,26 @@
 /*ESTILO PARA TABLETS */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+  /*Qualidade Home */
+  .qualidade::after {
+    right: 66px;
+  }
+
+  .qualidade-lista li {
+    padding: 0 10px;
+  }
+
+  /* Footer */
+
+  .footer-redes ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 6px;
+  }
+
+  .footer-redes ul li img {
+    width: 26px;
+    height: 26px;
+  }
 }
 /* MOBILE */
 @media only screen and (max-width: 787px) {
@@ -33,12 +54,24 @@
 
   .introducao {
     margin-top: 0px;
-    padding-top: 20px;
+    padding-top: 40px;
     background: url("../img/bg-mobile.jpg") no-repeat center;
     background-size: cover;
   }
 
+  .introducao h1 {
+    font-size: 36px;
+  }
+
   .quote-externo {
-    margin: 0 auto 30px;
+    margin: 0 auto 50px;
+  }
+
+  .call {
+    padding-top: 20px;
+  }
+
+  .qualidade::after {
+    display: none;
   }
 }
