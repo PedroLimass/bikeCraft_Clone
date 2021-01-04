@@ -52,11 +52,21 @@
     border-color: #fff;
   }
 
+  .header_menu ul li a.menu-ativo {
+    border-color: #fff;
+  }
+
   .introducao {
     margin-top: 0px;
     padding-top: 40px;
     background: url("../img/bg-mobile.jpg") no-repeat center;
     background-size: cover;
+  }
+
+  /* Introdução interna */
+
+  .introducao-interna {
+    margin-top: 0px;
   }
 
   .introducao h1 {
@@ -73,5 +83,17 @@
 
   .qualidade::after {
     display: none;
+  }
+
+  /* PAGE - Sobre */
+  .missao-sobre p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+  }
+
+  .missao-sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
   }
 }
